@@ -163,7 +163,7 @@ def save_mail(mail, username):
 #GmailDotGenerator
 def gmail_dot():
     logo()
-    username = input("\n\033[92m    [\033[37m*\033[92m] Enter Your Gmail Username:> \033[37m")
+    username = input("\n\033[92m    [\033[37m*\033[92m] Enter Your Gmail Username:> \033[37m").replace("@gmail.com", "").lower()
     warning = "Please Enter An Username!!"
     domain = "gmail.com"
     if ("@" in username):
