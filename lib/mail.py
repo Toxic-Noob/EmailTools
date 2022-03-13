@@ -30,7 +30,7 @@ def invox(mdata):
     mdata = mdata.split("@")
     name = mdata[0]
     domain = mdata[1]
-    psb("\033[92m\n    [\033[37m*\033[92m] Press ctrl Then c To To Stop Process...\n")
+    psb("\033[92m\n    [\033[37m*\033[92m] Press ctrl Then c To Stop Process...\n")
     psb("\033[33m[\033[34m*\033[33m] \033[92mInbox \033[33m[\033[34m*\033[33m] \033[37m".center(columns+37))
     mail_url = "https://www.1secmail.com/api/v1/?action=getMessages&login="+name+"&domain="+domain
     invox.name = name
