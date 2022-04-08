@@ -57,7 +57,7 @@ python e-tools.py
 
 <li>Via Email:
 
-toxicnoob.sl4d3.official@gmail.com
+ContactWithToxicNoob@gmail.com
 
 <li> Via <a href="https://facebook.com/ToxicNoobOfficial">Facebook Page</a>
 
